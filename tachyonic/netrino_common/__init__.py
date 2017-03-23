@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Netrino Common"""
 
-from tachyonic_netrino_common import metadata
+from tachyonic.netrino_common import metadata
 
 
 __version__ = metadata.version
