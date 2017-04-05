@@ -9,7 +9,7 @@ class NetworkDeviceFields(object):
     class Meta(object):
         db_table = 'device'
 
-    ip = Model.Integer()
+    id = Model.Integer()
     snmp_comm = Model.Text()
     name = Model.Text()
     vendor = Model.Text()
